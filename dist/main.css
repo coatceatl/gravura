@@ -1,8 +1,25 @@
 .header {
-  background: url(img/bg-header.png) repeat fixed center top; }
+  background: url(img/bg-header.png) repeat fixed center top;
+  padding: 22px 0; }
+
+.nav-belt {
+  width: 100%;
+  align-items: flex-end; }
 
 .navbar-brand img {
   width: 220px; }
+
+.phone-list {
+  list-style: none;
+  margin-bottom: 7px; }
+  .phone-list i {
+    font-size: x-large;
+    padding-top: 5px; }
+
+.phone-item {
+  font-size: 1.375rem;
+  font-weight: 700;
+  padding-left: 10px; }
 
 /*!
  * Bootstrap v4.1.1 (https://getbootstrap.com/)
