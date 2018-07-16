@@ -4,12 +4,30 @@
     <meta charset='utf-8'>
     <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1, user-scalable=no'>
     <title>webpack</title>
+    <link href='https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css' rel='stylesheet' integrity='sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN' crossorigin='anonymous'>
     <link rel='stylesheet' href='dist/main.css'>
   </head>
   <body>
-    <div class='container'>
-      <div class='title'>Webpack 4</div>
-    </div>
+    <header class='header'>
+      <nav class='navbar navbar-expand-md navbar-light sticky-top'>
+        <div class='container'>
+          <div class='nav-belt d-flex'>
+            <a class='navbar-brand' href='#'><img src='src/img/logo.png' alt='logo'></a>
+            <div class='navbar-phone'>
+              <ul class='phone-list'>
+                <i class="fa fa-phone"></i>
+                <li class='phone-item'>+7 (495) 762-65-78</li>
+                <li class='phone-item'>+7 (495) 407-76-33</li>
+            </div>
+            <button class='navbar-toggler ml-auto' type='button' data-toggle='collapse' data-target='#mobile-open'>
+              <span class='hamburger-icon'></span>
+            </button>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+
     <script src='dist/main.js'></script >
   </body>
 </html>

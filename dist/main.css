@@ -1,8 +1,8 @@
-.container {
-  background-color: lightgreen; }
+.header {
+  background: url(img/bg-header.png) repeat fixed center top; }
 
-.title {
-  color: red; }
+.navbar-brand img {
+  width: 220px; }
 
 /*!
  * Bootstrap v4.1.1 (https://getbootstrap.com/)
