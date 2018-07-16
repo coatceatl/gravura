@@ -21,7 +21,7 @@
   }
 }
 .phone-item {
-  font-size: remy(22px);
+  font-size: remy(20px);
   font-weight: 700;
   padding-left: 10px;
 }
@@ -36,7 +36,18 @@
 .nav-link {
   color: #fff;
 
+  &:hover {
+    color: #fff;
+  }
+
   i {
     padding-right: 7px;
+  }
+}
+.nav-item,
+a.dropdown-item {
+
+  &:hover {
+    background-color: #ec0606;
   }
 }

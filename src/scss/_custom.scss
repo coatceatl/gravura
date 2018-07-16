@@ -2,4 +2,13 @@
   @return ($value / 16px) *1rem;
 }
 
+$font-family: 'Roboto', sans-serif;
+$danger: #b6341e;
+$dropdown-bg: #1f2124;
+$dropdown-item: #fff;
+
+body {
+  font-family: $font-family !important;
+}
+
 @import '_header.scss';
