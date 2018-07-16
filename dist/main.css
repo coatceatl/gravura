@@ -25,6 +25,15 @@
   background-color: #1f2124;
   margin-top: 25px; }
 
+.nav-list {
+  width: 100%;
+  padding-left: 0; }
+
+.nav-link {
+  color: #fff; }
+  .nav-link i {
+    padding-right: 7px; }
+
 /*!
  * Bootstrap v4.1.1 (https://getbootstrap.com/)
  * Copyright 2011-2018 The Bootstrap Authors
