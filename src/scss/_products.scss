@@ -1,8 +1,39 @@
+.products {
+  background-color: cornsilk;
+  padding-top: 30px;
+
+  a:hover {
+    text-decoration: none;
+  }
+}
 .block-products  {
   width: 180px;
   height: 365px;
+  margin: 10px;
 
   a img {
     height: 225px;
   }
+}
+.photo {
+  position: relative;
+}
+.cost {
+  position: absolute;
+  bottom: 10px;
+  padding: 5px 12px 5px 20px;
+  background-color: #ec0606;
+  color: #fff;
+}
+.products-body {
+  padding: 5px;
+  background-color: #fff;
+}
+.products-title {
+  color: #000;
+  font-size: remy(16px);
+}
+.products-content {
+  color: #808080;
+  font-size: remy(13px);
 }
