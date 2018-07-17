@@ -12,6 +12,10 @@ body {
 .navbar-brand img {
   width: 220px; }
 
+.navbar-phone {
+  margin-right: 16px;
+  margin-top: 8px; }
+
 .phone-list {
   list-style: none;
   margin-bottom: 7px; }
@@ -59,6 +63,12 @@ a.dropdown-item:hover {
 
 .dropdown-toggle:after {
   display: none !important; }
+
+.block-products {
+  width: 180px;
+  height: 365px; }
+  .block-products a img {
+    height: 225px; }
 
 /*!
  * Bootstrap v4.1.1 (https://getbootstrap.com/)
