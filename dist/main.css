@@ -30,18 +30,35 @@ body {
 
 .nav-list {
   width: 100%;
-  padding-left: 0; }
+  padding-left: 0;
+  list-style: none; }
 
-.nav-link {
+.nav-link,
+.nav-link:hover,
+a.dropdown-item,
+a.dropdown-item:hover {
   color: #fff; }
-  .nav-link:hover {
-    color: #fff; }
-  .nav-link i {
+  .nav-link i,
+  .nav-link:hover i,
+  a.dropdown-item i,
+  a.dropdown-item:hover i {
     padding-right: 7px; }
 
 .nav-item:hover,
 a.dropdown-item:hover {
   background-color: #ec0606; }
+
+.dropdown-menu.show {
+  color: #fff !important; }
+
+.main-menu.collapse.show .nav-list {
+  flex-direction: column !important; }
+
+.dropdown:hover > .dropdown-menu {
+  display: block; }
+
+.dropdown-toggle:after {
+  display: none !important; }
 
 /*!
  * Bootstrap v4.1.1 (https://getbootstrap.com/)

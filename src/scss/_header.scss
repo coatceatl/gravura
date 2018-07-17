@@ -32,13 +32,13 @@
 .nav-list {
   width: 100%;
   padding-left: 0;
+  list-style: none;
 }
-.nav-link {
+.nav-link,
+.nav-link:hover,
+a.dropdown-item,
+a.dropdown-item:hover {
   color: #fff;
-
-  &:hover {
-    color: #fff;
-  }
 
   i {
     padding-right: 7px;
@@ -49,5 +49,21 @@ a.dropdown-item {
 
   &:hover {
     background-color: #ec0606;
+  }
+}
+.dropdown-menu.show {
+  color: #fff !important;
+}
+.main-menu.collapse.show {
+  .nav-list {
+    flex-direction: column !important;
+  }
+}
+.dropdown:hover > .dropdown-menu {
+    display: block;
+}
+.dropdown-toggle {
+  &:after {
+    display: none !important;
   }
 }
